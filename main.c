@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 //Nicolas Cajas
+  int login();
+  float calcularPrecioRuta(int tipoRuta, float distancia);
+  float calcularDescuento(float costoTotal, float distancia);
+  void redSocial();
+  float operacionTransporte();
 
 int login() {
     // Preestablecer usuarios y contraseñas
